@@ -10,5 +10,6 @@ namespace WebApp.Models
     {
         public string Brand { get; set; }
         public int Id { get; set; }
+        public List<CarModel> CarModels { get; set; }
     }
 }
